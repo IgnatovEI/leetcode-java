@@ -1,0 +1,13 @@
+# IDE
+.idea/
+*.iml
+
+# Build
+bin/
+out/
+target/
+
+# Logs
+*.log
+
+src/Main.java
