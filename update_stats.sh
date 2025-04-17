@@ -18,7 +18,7 @@ get_recent_solutions() {
         num=$(basename "$file" | cut -d'_' -f2 | cut -d'.' -f1)
         name=$(basename "$file" | cut -d'_' -f3- | sed 's/.java//')
         diff=$(echo "$file" | cut -d'/' -f2)
-        echo "[$num. $name ($diff)]($file)"
+        echo "- [$num. $name ($diff)]($file)"
     done
 }
 
@@ -33,7 +33,9 @@ cat > "$README" <<EOF
 
 📊 **Progress**:
 ✅ **Total Solved**: $TOTAL
-🟢 Easy: $EASY | 🟡 Medium: $MEDIUM | 🔴 Hard: $HARD
+- 🟢 Easy: $EASY
+- 🟡 Medium: $MEDIUM
+- 🔴 Hard: $HARD
 
 ## Recently Solved
 $RECENT_SOLUTIONS
