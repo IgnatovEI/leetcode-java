@@ -18,7 +18,7 @@ get_recent_solutions() {
         num=$(basename "$file" | cut -d'_' -f2 | cut -d'.' -f1)
         name=$(basename "$file" | cut -d'_' -f3- | sed 's/.java//')
         diff=$(echo "$file" | cut -d'/' -f2)
-        echo "- [x] [$num. $name ($diff)]($file)"
+        echo "[$num. $name ($diff)]($file)"
     done
 }
 
