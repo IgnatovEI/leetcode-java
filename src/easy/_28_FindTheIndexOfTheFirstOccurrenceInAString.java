@@ -26,7 +26,6 @@ public class _28_FindTheIndexOfTheFirstOccurrenceInAString {
                     break;
                 }
             }
-
         }
 
         return -1;

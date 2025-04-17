@@ -18,7 +18,6 @@ public class _27_RemoveElement {
                 p++;
             }
         }
-
         return p;
     }
 }

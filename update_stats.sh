@@ -9,10 +9,24 @@ count_problems() {
     find "$SRC_DIR/$difficulty" -name '_*.java' | wc -l | tr -d ' '
 }
 
+get_recent_solutions() {
+    find "$SRC_DIR" -name '_*.java' -printf '%T@ %p\n' |
+    sort -n |
+    cut -d' ' -f2- |
+    tail -3 |
+    while read -r file; do
+        num=$(basename "$file" | cut -d'_' -f2 | cut -d'.' -f1)
+        name=$(basename "$file" | cut -d'_' -f3- | sed 's/.java//')
+        diff=$(echo "$file" | cut -d'/' -f2)
+        echo "- [x] [$num. $name ($diff)]($file)"
+    done
+}
+
 EASY=$(count_problems "easy")
 MEDIUM=$(count_problems "medium")
 HARD=$(count_problems "hard")
 TOTAL=$((EASY + MEDIUM + HARD))
+RECENT_SOLUTIONS=$(get_recent_solutions)
 
 cat > "$README" <<EOF
 # LeetCode Solutions (Java)
@@ -21,23 +35,22 @@ cat > "$README" <<EOF
 ✅ **Total Solved**: $TOTAL
 🟢 Easy: $EASY | 🟡 Medium: $MEDIUM | 🔴 Hard: $HARD
 
-## Solutions Table
-[View all solutions]($SOLUTIONS_TABLE)
+## Recently Solved
+$RECENT_SOLUTIONS
 
-## Usage
-\`\`\`bash
-./update_stats.sh
-\`\`\`
+## All Solutions
+[View complete solutions table]($SOLUTIONS_TABLE)
 EOF
 
-echo "| # | Problem | Difficulty | Solution |" > "$SOLUTIONS_TABLE"
-echo "|---|---------|------------|----------|" >> "$SOLUTIONS_TABLE"
-
-find "$SRC_DIR" -name '_*.java' | while read -r file; do
-    num=$(basename "$file" | cut -d'_' -f2 | cut -d'.' -f1)
-    name=$(basename "$file" | cut -d'_' -f3- | sed 's/.java//')
-    diff=$(echo "$file" | cut -d'/' -f2)
-    echo "| $num | $name | $diff | [Java]($file) |" >> "$SOLUTIONS_TABLE"
-done
+{
+    echo "| # | Problem | Difficulty | Solution |"
+    echo "|---|---------|------------|----------|"
+    find "$SRC_DIR" -name '_*.java' | sort -V | while read -r file; do
+        num=$(basename "$file" | cut -d'_' -f2 | cut -d'.' -f1)
+        name=$(basename "$file" | cut -d'_' -f3- | sed 's/.java//')
+        diff=$(echo "$file" | cut -d'/' -f2)
+        echo "| $num | $name | $diff | [Java]($file) |"
+    done
+} > "$SOLUTIONS_TABLE"
 
 echo "✅ README and solutions table updated!"

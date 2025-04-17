@@ -17,7 +17,6 @@ public class _26_RemoveDuplicatesFromSortedArray {
                 p++;
             }
         }
-
         return p;
     }
 }
