@@ -9,6 +9,7 @@
 | 26 | RemoveDuplicatesFromSortedArray | easy | [Java](src/easy/_26_RemoveDuplicatesFromSortedArray.java) |
 | 27 | RemoveElement | easy | [Java](src/easy/_27_RemoveElement.java) |
 | 28 | FindTheIndexOfTheFirstOccurrenceInAString | easy | [Java](src/easy/_28_FindTheIndexOfTheFirstOccurrenceInAString.java) |
+| 35 | SearchInsertPosition | easy | [Java](src/easy/_35_SearchInsertPosition.java) |
 | 136 | SingleNumber | easy | [Java](src/easy/_136_SingleNumber.java) |
 | 217 | ContainsDuplicate | easy | [Java](src/easy/_217_ContainsDuplicate.java) |
 | 242 | ValidAnagram | easy | [Java](src/easy/_242_ValidAnagram.java) |
