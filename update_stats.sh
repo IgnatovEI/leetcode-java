@@ -11,9 +11,9 @@ count_problems() {
 
 get_recent_solutions() {
     find "$SRC_DIR" -name '_*.java' -printf '%T@ %p\n' |
-    sort -n |
+    sort -nr |
     cut -d' ' -f2- |
-    tail -3 |
+    head -3 |
     while read -r file; do
         num=$(basename "$file" | cut -d'_' -f2 | cut -d'.' -f1)
         name=$(basename "$file" | cut -d'_' -f3- | sed 's/.java//')
@@ -29,7 +29,7 @@ TOTAL=$((EASY + MEDIUM + HARD))
 RECENT_SOLUTIONS=$(get_recent_solutions)
 
 cat > "$README" <<EOF
-# LeetCode Solutions (Java)
+## LeetCode Solutions (Java)
 
 📊 **Progress**:
 ✅ **Total Solved**: $TOTAL
@@ -54,5 +54,3 @@ EOF
         echo "| $num | $name | $diff | [Java]($file) |"
     done
 } > "$SOLUTIONS_TABLE"
-
-echo "✅ README and solutions table updated!"
