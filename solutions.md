@@ -19,6 +19,7 @@
 | 268 | MissingNumber | easy | [Java](src/easy/_268_MissingNumber.java) |
 | 283 | MoveZeroes | easy | [Java](src/easy/_283_MoveZeroes.java) |
 | 344 | ReverseString | easy | [Java](src/easy/_344_ReverseString.java) |
+| 1961 | CheckIfStringIsAPrefixOfArray | easy | [Java](src/easy/_1961_CheckIfStringIsAPrefixOfArray.java) |
 | 2465 | NumberOfDistinctAverages | easy | [Java](src/easy/_2465_NumberOfDistinctAverages.java) |
 | 7 | ReverseInteger | medium | [Java](src/medium/_7_ReverseInteger.java) |
 | 49 | GroupAnagrams | medium | [Java](src/medium/_49_GroupAnagrams.java) |
