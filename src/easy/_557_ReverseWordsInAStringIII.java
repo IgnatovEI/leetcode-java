@@ -8,34 +8,28 @@ public class _557_ReverseWordsInAStringIII {
      * while still preserving whitespace and initial word order
      */
     public String reverseWords(String s) {
-        StringBuilder res = new StringBuilder();
-        StringBuilder word = new StringBuilder();
-
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) != ' ') {
-                word.append(s.charAt(i));
-            } else {
-                res.append(reverseWord(word.toString()));
-                word = new StringBuilder();
+        char[] chars = s.toCharArray();
+        int p = 0;
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] == ' ') {
+                for (int j = i - 1; j > p; j--) {
+                    char tmp = chars[p];
+                    chars[p] = chars[j];
+                    chars[j] = tmp;
+                    p++;
+                }
+                p = i + 1;
+            }
+            if (i == chars.length - 1) {
+                for (int j = i; j > p; j--) {
+                    char tmp = chars[p];
+                    chars[p] = chars[j];
+                    chars[j] = tmp;
+                    p++;
+                }
             }
         }
 
-        res.append(reverseWord(word.toString()));
-
-        res.deleteCharAt(res.length() - 1);
-
-        return res.toString();
-    }
-
-    private String reverseWord(String s) {
-        char[] chars = s.toCharArray();
-        int p = chars.length - 1;
-        for (int i = 0; i < chars.length / 2; i++) {
-            char tmp = chars[i];
-            chars[i] = chars[p];
-            chars[p] = tmp;
-            p--;
-        }
-        return String.valueOf(chars) + ' ';
+        return new String(chars);
     }
 }
