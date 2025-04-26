@@ -23,6 +23,7 @@
 | 557 | ReverseWordsInAStringIII | easy | [Java](src/easy/_557_ReverseWordsInAStringIII.java) |
 | 1961 | CheckIfStringIsAPrefixOfArray | easy | [Java](src/easy/_1961_CheckIfStringIsAPrefixOfArray.java) |
 | 2465 | NumberOfDistinctAverages | easy | [Java](src/easy/_2465_NumberOfDistinctAverages.java) |
+| 2540 | MinimumCommonValue | easy | [Java](src/easy/_2540_MinimumCommonValue.java) |
 | 7 | ReverseInteger | medium | [Java](src/medium/_7_ReverseInteger.java) |
 | 49 | GroupAnagrams | medium | [Java](src/medium/_49_GroupAnagrams.java) |
 | 271 | EncodeAndDecodeStrings | medium | [Java](src/medium/_271_EncodeAndDecodeStrings.java) |
