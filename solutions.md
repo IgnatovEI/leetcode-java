@@ -22,6 +22,7 @@
 | 344 | ReverseString | easy | [Java](src/easy/_344_ReverseString.java) |
 | 541 | ReverseStringII | easy | [Java](src/easy/_541_ReverseStringII.java) |
 | 557 | ReverseWordsInAStringIII | easy | [Java](src/easy/_557_ReverseWordsInAStringIII.java) |
+| 1071 | GreatestCommonDivisorOfStrings | easy | [Java](src/easy/_1071_GreatestCommonDivisorOfStrings.java) |
 | 1768 | MergeStringsAlternately | easy | [Java](src/easy/_1768_MergeStringsAlternately.java) |
 | 1961 | CheckIfStringIsAPrefixOfArray | easy | [Java](src/easy/_1961_CheckIfStringIsAPrefixOfArray.java) |
 | 2465 | NumberOfDistinctAverages | easy | [Java](src/easy/_2465_NumberOfDistinctAverages.java) |
