@@ -22,6 +22,7 @@
 | 344 | ReverseString | easy | [Java](src/easy/_344_ReverseString.java) |
 | 541 | ReverseStringII | easy | [Java](src/easy/_541_ReverseStringII.java) |
 | 557 | ReverseWordsInAStringIII | easy | [Java](src/easy/_557_ReverseWordsInAStringIII.java) |
+| 605 | CanPlaceFlowers | easy | [Java](src/easy/_605_CanPlaceFlowers.java) |
 | 1071 | GreatestCommonDivisorOfStrings | easy | [Java](src/easy/_1071_GreatestCommonDivisorOfStrings.java) |
 | 1431 | KidsWithTheGreatestNumberOfCandies | easy | [Java](src/easy/_1431_KidsWithTheGreatestNumberOfCandies.java) |
 | 1768 | MergeStringsAlternately | easy | [Java](src/easy/_1768_MergeStringsAlternately.java) |
