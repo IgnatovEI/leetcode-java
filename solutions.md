@@ -20,6 +20,7 @@
 | 268 | MissingNumber | easy | [Java](src/easy/_268_MissingNumber.java) |
 | 283 | MoveZeroes | easy | [Java](src/easy/_283_MoveZeroes.java) |
 | 344 | ReverseString | easy | [Java](src/easy/_344_ReverseString.java) |
+| 345 | ReverseVowelsOfAString | easy | [Java](src/easy/_345_ReverseVowelsOfAString.java) |
 | 541 | ReverseStringII | easy | [Java](src/easy/_541_ReverseStringII.java) |
 | 557 | ReverseWordsInAStringIII | easy | [Java](src/easy/_557_ReverseWordsInAStringIII.java) |
 | 605 | CanPlaceFlowers | easy | [Java](src/easy/_605_CanPlaceFlowers.java) |
