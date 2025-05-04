@@ -36,4 +36,5 @@
 | 151 | ReverseWordsInAString | medium | [Java](src/medium/_151_ReverseWordsInAString.java) |
 | 238 | ProductOfArrayExceptSelf | medium | [Java](src/medium/_238_ProductOfArrayExceptSelf.java) |
 | 271 | EncodeAndDecodeStrings | medium | [Java](src/medium/_271_EncodeAndDecodeStrings.java) |
+| 334 | IncreasingTripletSubsequence | medium | [Java](src/medium/_334_IncreasingTripletSubsequence.java) |
 | 347 | TopKFrequentElements | medium | [Java](src/medium/_347_TopKFrequentElements.java) |
