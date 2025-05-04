@@ -1,33 +1,46 @@
 #!/bin/bash
 
+# === 📁 Путь к файлам ===
 README="README.md"
 SOLUTIONS_TABLE="solutions.md"
 SRC_DIR="src"
 
+# === 📊 Подсчёт задач по сложности ===
 count_problems() {
-    local difficulty="$1"
-    find "$SRC_DIR/$difficulty" -name '_*.java' | wc -l | tr -d ' '
+    local level="$1"
+    find "$SRC_DIR/$level" -type f -name '_*.java' | wc -l | tr -d ' '
 }
 
+# === 🕒 Получение последних 3 решённых задач ===
 get_recent_solutions() {
-    find "$SRC_DIR" -name '_*.java' -printf '%T@ %p\n' |
-    sort -nr |
-    cut -d' ' -f2- |
-    head -3 |
+    find "$SRC_DIR" -type f -name '_*.java' -printf '%T@ %p\n' |  # timestamp + путь
+    sort -nr |                                                    # по времени убыв
+    head -3 |                                                     # берём 3 новых
+    awk '{ $1=""; sub(/^ /, ""); print }' |                       # удаляем timestamp
     while read -r file; do
-        num=$(basename "$file" | cut -d'_' -f2 | cut -d'.' -f1)
-        name=$(basename "$file" | cut -d'_' -f3- | sed 's/.java//')
-        diff=$(echo "$file" | cut -d'/' -f2)
-        echo "- [$num. $name ($diff)]($file)"
+        filename="${file##*/}"                                    # _1_TwoSum.java
+        difficulty="${file#${SRC_DIR}/}"                          # easy/medium/hard/...
+        difficulty="${difficulty%%/*}"
+
+        # Извлекаем номер и имя задачи из имени файла
+        num="${filename%%_*}"         # пусто — из-за начального _
+        rest="${filename#_}"          # убрали начальное подчеркивание → "1_TwoSum.java"
+        num="${rest%%_*}"             # берём до следующего "_" → "1"
+        name="${rest#*_}"             # всё после "_" → "TwoSum.java"
+        name="${name%.java}"          # убираем расширение → "TwoSum"
+
+        echo "- [$num. $name ($difficulty)]($file)"
     done
 }
 
+# === 📈 Статистика ===
 EASY=$(count_problems "easy")
 MEDIUM=$(count_problems "medium")
 HARD=$(count_problems "hard")
 TOTAL=$((EASY + MEDIUM + HARD))
-RECENT_SOLUTIONS=$(get_recent_solutions)
+RECENT_SOLUTIONS="$(get_recent_solutions)"
 
+# === 📄 README.md ===
 cat > "$README" <<EOF
 ## LeetCode Solutions (Java)
 
@@ -44,13 +57,21 @@ $RECENT_SOLUTIONS
 [View complete solutions table]($SOLUTIONS_TABLE)
 EOF
 
+# === 📋 Генерация таблицы решений (solutions.md) ===
 {
     echo "| # | Problem | Difficulty | Solution |"
     echo "|---|---------|------------|----------|"
-    find "$SRC_DIR" -name '_*.java' | sort -V | while read -r file; do
-        num=$(basename "$file" | cut -d'_' -f2 | cut -d'.' -f1)
-        name=$(basename "$file" | cut -d'_' -f3- | sed 's/.java//')
-        diff=$(echo "$file" | cut -d'/' -f2)
-        echo "| $num | $name | $diff | [Java]($file) |"
+
+    find "$SRC_DIR" -type f -name '_*.java' | sort -V | while read -r file; do
+        filename="${file##*/}"              # _1_TwoSum.java
+        difficulty="${file#${SRC_DIR}/}"
+        difficulty="${difficulty%%/*}"
+
+        rest="${filename#_}"                # "1_TwoSum.java"
+        num="${rest%%_*}"                   # "1"
+        name="${rest#*_}"                   # "TwoSum.java"
+        name="${name%.java}"                # "TwoSum"
+
+        echo "| $num | $name | $difficulty | [Java]($file) |"
     done
 } > "$SOLUTIONS_TABLE"
