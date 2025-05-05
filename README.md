@@ -1,15 +1,15 @@
 ## LeetCode Solutions (Java)
 
 📊 **Progress**:
-✅ **Total Solved**: 38
+✅ **Total Solved**: 39
 - 🟢 Easy: 31
-- 🟡 Medium: 7
+- 🟡 Medium: 8
 - 🔴 Hard: 0
 
 ## Recently Solved
+- [443. StringCompression (medium)](src/medium/_443_StringCompression.java)
 - [334. IncreasingTripletSubsequence (medium)](src/medium/_334_IncreasingTripletSubsequence.java)
 - [238. ProductOfArrayExceptSelf (medium)](src/medium/_238_ProductOfArrayExceptSelf.java)
-- [1732. FindTheHighestAltitude (easy)](src/easy/_1732_FindTheHighestAltitude.java)
 
 ## All Solutions
 [View complete solutions table](solutions.md)
