@@ -34,6 +34,7 @@
 | 2465 | NumberOfDistinctAverages | easy | [Java](src/easy/_2465_NumberOfDistinctAverages.java) |
 | 2540 | MinimumCommonValue | easy | [Java](src/easy/_2540_MinimumCommonValue.java) |
 | 7 | ReverseInteger | medium | [Java](src/medium/_7_ReverseInteger.java) |
+| 11 | ContainerWithMostWater | medium | [Java](src/medium/_11_ContainerWithMostWater.java) |
 | 49 | GroupAnagrams | medium | [Java](src/medium/_49_GroupAnagrams.java) |
 | 151 | ReverseWordsInAString | medium | [Java](src/medium/_151_ReverseWordsInAString.java) |
 | 238 | ProductOfArrayExceptSelf | medium | [Java](src/medium/_238_ProductOfArrayExceptSelf.java) |
