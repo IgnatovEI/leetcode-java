@@ -25,6 +25,7 @@
 | 541 | ReverseStringII | easy | [Java](src/easy/_541_ReverseStringII.java) |
 | 557 | ReverseWordsInAStringIII | easy | [Java](src/easy/_557_ReverseWordsInAStringIII.java) |
 | 605 | CanPlaceFlowers | easy | [Java](src/easy/_605_CanPlaceFlowers.java) |
+| 643 | MaximumAverageSubarrayI | easy | [Java](src/easy/_643_MaximumAverageSubarrayI.java) |
 | 724 | FindPivotIndex | easy | [Java](src/easy/_724_FindPivotIndex.java) |
 | 1071 | GreatestCommonDivisorOfStrings | easy | [Java](src/easy/_1071_GreatestCommonDivisorOfStrings.java) |
 | 1431 | KidsWithTheGreatestNumberOfCandies | easy | [Java](src/easy/_1431_KidsWithTheGreatestNumberOfCandies.java) |
