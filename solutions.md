@@ -43,4 +43,5 @@
 | 334 | IncreasingTripletSubsequence | medium | [Java](src/medium/_334_IncreasingTripletSubsequence.java) |
 | 347 | TopKFrequentElements | medium | [Java](src/medium/_347_TopKFrequentElements.java) |
 | 443 | StringCompression | medium | [Java](src/medium/_443_StringCompression.java) |
+| 1456 | MaximumNumberOfVowelsInASubstringOfGivenLength | medium | [Java](src/medium/_1456_MaximumNumberOfVowelsInASubstringOfGivenLength.java) |
 | 1679 | MaxNumberOfKSumPairs | medium | [Java](src/medium/_1679_MaxNumberOfKSumPairs.java) |
