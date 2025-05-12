@@ -28,6 +28,7 @@
 | 643 | MaximumAverageSubarrayI | easy | [Java](src/easy/_643_MaximumAverageSubarrayI.java) |
 | 724 | FindPivotIndex | easy | [Java](src/easy/_724_FindPivotIndex.java) |
 | 1071 | GreatestCommonDivisorOfStrings | easy | [Java](src/easy/_1071_GreatestCommonDivisorOfStrings.java) |
+| 1207 | UniqueNumberOfOccurrences | easy | [Java](src/easy/_1207_UniqueNumberOfOccurrences.java) |
 | 1431 | KidsWithTheGreatestNumberOfCandies | easy | [Java](src/easy/_1431_KidsWithTheGreatestNumberOfCandies.java) |
 | 1732 | FindTheHighestAltitude | easy | [Java](src/easy/_1732_FindTheHighestAltitude.java) |
 | 1768 | MergeStringsAlternately | easy | [Java](src/easy/_1768_MergeStringsAlternately.java) |
