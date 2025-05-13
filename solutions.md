@@ -47,4 +47,5 @@
 | 443 | StringCompression | medium | [Java](src/medium/_443_StringCompression.java) |
 | 1004 | MaxConsecutiveOnesIII | medium | [Java](src/medium/_1004_MaxConsecutiveOnesIII.java) |
 | 1456 | MaximumNumberOfVowelsInASubstringOfGivenLength | medium | [Java](src/medium/_1456_MaximumNumberOfVowelsInASubstringOfGivenLength.java) |
+| 1493 | LongestSubarrayOf1sAfterDeletingOneElement | medium | [Java](src/medium/_1493_LongestSubarrayOf1sAfterDeletingOneElement.java) |
 | 1679 | MaxNumberOfKSumPairs | medium | [Java](src/medium/_1679_MaxNumberOfKSumPairs.java) |
