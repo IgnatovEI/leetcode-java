@@ -22,6 +22,7 @@
 | 344 | ReverseString | easy | [Java](src/easy/_344_ReverseString.java) |
 | 345 | ReverseVowelsOfAString | easy | [Java](src/easy/_345_ReverseVowelsOfAString.java) |
 | 392 | IsSubsequence | easy | [Java](src/easy/_392_IsSubsequence.java) |
+| 485 | MaxConsecutiveOnes | easy | [Java](src/easy/_485_MaxConsecutiveOnes.java) |
 | 541 | ReverseStringII | easy | [Java](src/easy/_541_ReverseStringII.java) |
 | 557 | ReverseWordsInAStringIII | easy | [Java](src/easy/_557_ReverseWordsInAStringIII.java) |
 | 605 | CanPlaceFlowers | easy | [Java](src/easy/_605_CanPlaceFlowers.java) |
