@@ -10,21 +10,18 @@ public class _1493_LongestSubarrayOf1sAfterDeletingOneElement {
     public int longestSubarray(int[] nums) {
         int max = 0;
         int l = 0;
-        int pos = -1;
-        boolean del = false;
+        int z = 0;
 
         for (int r = 0; r < nums.length; r++) {
-            if (nums[r] == 0) {
-                if (del) {
-                    l = pos + 1;
-                }
-                del = true;
-                pos = r;
-            }
-            max = Math.max(max, r - l);
+            if (nums[r] == 0) z++;
 
+            while (z > 1) {
+                if (nums[l++] == 0) z--;
+            }
+
+            max = Math.max(max, r - l + 1 - z);
         }
 
-        return max;
+        return max == nums.length ? max - 1 : max;
     }
 }
