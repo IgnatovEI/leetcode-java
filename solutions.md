@@ -34,6 +34,7 @@
 | 1732 | FindTheHighestAltitude | easy | [Java](src/easy/_1732_FindTheHighestAltitude.java) |
 | 1768 | MergeStringsAlternately | easy | [Java](src/easy/_1768_MergeStringsAlternately.java) |
 | 1961 | CheckIfStringIsAPrefixOfArray | easy | [Java](src/easy/_1961_CheckIfStringIsAPrefixOfArray.java) |
+| 2215 | FindTheDifferenceOfTwoArrays | easy | [Java](src/easy/_2215_FindTheDifferenceOfTwoArrays.java) |
 | 2465 | NumberOfDistinctAverages | easy | [Java](src/easy/_2465_NumberOfDistinctAverages.java) |
 | 2540 | MinimumCommonValue | easy | [Java](src/easy/_2540_MinimumCommonValue.java) |
 | 7 | ReverseInteger | medium | [Java](src/medium/_7_ReverseInteger.java) |
