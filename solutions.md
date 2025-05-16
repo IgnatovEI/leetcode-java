@@ -13,6 +13,7 @@
 | 58 | LengthOfLastWord | easy | [Java](src/easy/_58_LengthOfLastWord.java) |
 | 66 | PlusOne | easy | [Java](src/easy/_66_PlusOne.java) |
 | 88 | MergeSortedArray | easy | [Java](src/easy/_88_MergeSortedArray.java) |
+| 121 | BestTimeToBuyAndSellStock | easy | [Java](src/easy/_121_BestTimeToBuyAndSellStock.java) |
 | 125 | ValidPalindrome | easy | [Java](src/easy/_125_ValidPalindrome.java) |
 | 136 | SingleNumber | easy | [Java](src/easy/_136_SingleNumber.java) |
 | 217 | ContainsDuplicate | easy | [Java](src/easy/_217_ContainsDuplicate.java) |
