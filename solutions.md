@@ -43,6 +43,7 @@
 | 7 | ReverseInteger | medium | [Java](src/medium/_7_ReverseInteger.java) |
 | 11 | ContainerWithMostWater | medium | [Java](src/medium/_11_ContainerWithMostWater.java) |
 | 49 | GroupAnagrams | medium | [Java](src/medium/_49_GroupAnagrams.java) |
+| 53 | MaximumSubarray | medium | [Java](src/medium/_53_MaximumSubarray.java) |
 | 151 | ReverseWordsInAString | medium | [Java](src/medium/_151_ReverseWordsInAString.java) |
 | 238 | ProductOfArrayExceptSelf | medium | [Java](src/medium/_238_ProductOfArrayExceptSelf.java) |
 | 271 | EncodeAndDecodeStrings | medium | [Java](src/medium/_271_EncodeAndDecodeStrings.java) |
