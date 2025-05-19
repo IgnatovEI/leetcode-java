@@ -38,6 +38,7 @@
 | 1961 | CheckIfStringIsAPrefixOfArray | easy | [Java](src/easy/_1961_CheckIfStringIsAPrefixOfArray.java) |
 | 2215 | FindTheDifferenceOfTwoArrays | easy | [Java](src/easy/_2215_FindTheDifferenceOfTwoArrays.java) |
 | 2235 | AddTwoIntegers | easy | [Java](src/easy/_2235_AddTwoIntegers.java) |
+| 2236 | RootEqualsSumOfChildren | easy | [Java](src/easy/_2236_RootEqualsSumOfChildren.java) |
 | 2465 | NumberOfDistinctAverages | easy | [Java](src/easy/_2465_NumberOfDistinctAverages.java) |
 | 2540 | MinimumCommonValue | easy | [Java](src/easy/_2540_MinimumCommonValue.java) |
 | 5 | LongestPalindromicSubstring | medium | [Java](src/medium/_5_LongestPalindromicSubstring.java) |
