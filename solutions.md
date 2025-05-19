@@ -17,6 +17,7 @@
 | 125 | ValidPalindrome | easy | [Java](src/easy/_125_ValidPalindrome.java) |
 | 136 | SingleNumber | easy | [Java](src/easy/_136_SingleNumber.java) |
 | 217 | ContainsDuplicate | easy | [Java](src/easy/_217_ContainsDuplicate.java) |
+| 226 | InvertBinaryTree | easy | [Java](src/easy/_226_InvertBinaryTree.java) |
 | 242 | ValidAnagram | easy | [Java](src/easy/_242_ValidAnagram.java) |
 | 268 | MissingNumber | easy | [Java](src/easy/_268_MissingNumber.java) |
 | 283 | MoveZeroes | easy | [Java](src/easy/_283_MoveZeroes.java) |
