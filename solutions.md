@@ -25,6 +25,7 @@
 | 345 | ReverseVowelsOfAString | easy | [Java](src/easy/_345_ReverseVowelsOfAString.java) |
 | 349 | IntersectionOfTwoArrays | easy | [Java](src/easy/_349_IntersectionOfTwoArrays.java) |
 | 392 | IsSubsequence | easy | [Java](src/easy/_392_IsSubsequence.java) |
+| 412 | FizzBuzz | easy | [Java](src/easy/_412_FizzBuzz.java) |
 | 485 | MaxConsecutiveOnes | easy | [Java](src/easy/_485_MaxConsecutiveOnes.java) |
 | 541 | ReverseStringII | easy | [Java](src/easy/_541_ReverseStringII.java) |
 | 557 | ReverseWordsInAStringIII | easy | [Java](src/easy/_557_ReverseWordsInAStringIII.java) |
