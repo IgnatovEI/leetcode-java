@@ -34,6 +34,7 @@
 | 724 | FindPivotIndex | easy | [Java](src/easy/_724_FindPivotIndex.java) |
 | 1071 | GreatestCommonDivisorOfStrings | easy | [Java](src/easy/_1071_GreatestCommonDivisorOfStrings.java) |
 | 1207 | UniqueNumberOfOccurrences | easy | [Java](src/easy/_1207_UniqueNumberOfOccurrences.java) |
+| 1342 | NumberOfStepsToReduceANumberToZero | easy | [Java](src/easy/_1342_NumberOfStepsToReduceANumberToZero.java) |
 | 1431 | KidsWithTheGreatestNumberOfCandies | easy | [Java](src/easy/_1431_KidsWithTheGreatestNumberOfCandies.java) |
 | 1480 | RunningSumOf1dArray | easy | [Java](src/easy/_1480_RunningSumOf1dArray.java) |
 | 1672 | RichestCustomerWealth | easy | [Java](src/easy/_1672_RichestCustomerWealth.java) |
