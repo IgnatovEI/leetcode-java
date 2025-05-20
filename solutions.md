@@ -32,6 +32,7 @@
 | 605 | CanPlaceFlowers | easy | [Java](src/easy/_605_CanPlaceFlowers.java) |
 | 643 | MaximumAverageSubarrayI | easy | [Java](src/easy/_643_MaximumAverageSubarrayI.java) |
 | 724 | FindPivotIndex | easy | [Java](src/easy/_724_FindPivotIndex.java) |
+| 876 | MiddleOfTheLinkedList | easy | [Java](src/easy/_876_MiddleOfTheLinkedList.java) |
 | 1071 | GreatestCommonDivisorOfStrings | easy | [Java](src/easy/_1071_GreatestCommonDivisorOfStrings.java) |
 | 1207 | UniqueNumberOfOccurrences | easy | [Java](src/easy/_1207_UniqueNumberOfOccurrences.java) |
 | 1342 | NumberOfStepsToReduceANumberToZero | easy | [Java](src/easy/_1342_NumberOfStepsToReduceANumberToZero.java) |
