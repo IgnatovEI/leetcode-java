@@ -34,6 +34,7 @@
 | 1071 | GreatestCommonDivisorOfStrings | easy | [Java](src/easy/_1071_GreatestCommonDivisorOfStrings.java) |
 | 1207 | UniqueNumberOfOccurrences | easy | [Java](src/easy/_1207_UniqueNumberOfOccurrences.java) |
 | 1431 | KidsWithTheGreatestNumberOfCandies | easy | [Java](src/easy/_1431_KidsWithTheGreatestNumberOfCandies.java) |
+| 1480 | RunningSumOf1dArray | easy | [Java](src/easy/_1480_RunningSumOf1dArray.java) |
 | 1732 | FindTheHighestAltitude | easy | [Java](src/easy/_1732_FindTheHighestAltitude.java) |
 | 1768 | MergeStringsAlternately | easy | [Java](src/easy/_1768_MergeStringsAlternately.java) |
 | 1961 | CheckIfStringIsAPrefixOfArray | easy | [Java](src/easy/_1961_CheckIfStringIsAPrefixOfArray.java) |
