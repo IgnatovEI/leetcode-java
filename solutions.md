@@ -18,6 +18,7 @@
 | 121 | BestTimeToBuyAndSellStock | easy | [Java](src/easy/_121_BestTimeToBuyAndSellStock.java) |
 | 125 | ValidPalindrome | easy | [Java](src/easy/_125_ValidPalindrome.java) |
 | 136 | SingleNumber | easy | [Java](src/easy/_136_SingleNumber.java) |
+| 169 | MajorityElement | easy | [Java](src/easy/_169_MajorityElement.java) |
 | 217 | ContainsDuplicate | easy | [Java](src/easy/_217_ContainsDuplicate.java) |
 | 226 | InvertBinaryTree | easy | [Java](src/easy/_226_InvertBinaryTree.java) |
 | 242 | ValidAnagram | easy | [Java](src/easy/_242_ValidAnagram.java) |
