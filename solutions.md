@@ -13,6 +13,7 @@
 | 58 | LengthOfLastWord | easy | [Java](src/easy/_58_LengthOfLastWord.java) |
 | 66 | PlusOne | easy | [Java](src/easy/_66_PlusOne.java) |
 | 67 | AddBinary | easy | [Java](src/easy/_67_AddBinary.java) |
+| 69 | SqrtX | easy | [Java](src/easy/_69_SqrtX.java) |
 | 83 | RemoveDuplicatesFromSortedList | easy | [Java](src/easy/_83_RemoveDuplicatesFromSortedList.java) |
 | 88 | MergeSortedArray | easy | [Java](src/easy/_88_MergeSortedArray.java) |
 | 121 | BestTimeToBuyAndSellStock | easy | [Java](src/easy/_121_BestTimeToBuyAndSellStock.java) |
