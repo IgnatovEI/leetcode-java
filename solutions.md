@@ -17,6 +17,7 @@
 | 70 | ClimbingStairs | easy | [Java](src/easy/_70_ClimbingStairs.java) |
 | 83 | RemoveDuplicatesFromSortedList | easy | [Java](src/easy/_83_RemoveDuplicatesFromSortedList.java) |
 | 88 | MergeSortedArray | easy | [Java](src/easy/_88_MergeSortedArray.java) |
+| 94 | BinaryTreeInorderTraversal | easy | [Java](src/easy/_94_BinaryTreeInorderTraversal.java) |
 | 121 | BestTimeToBuyAndSellStock | easy | [Java](src/easy/_121_BestTimeToBuyAndSellStock.java) |
 | 125 | ValidPalindrome | easy | [Java](src/easy/_125_ValidPalindrome.java) |
 | 136 | SingleNumber | easy | [Java](src/easy/_136_SingleNumber.java) |
