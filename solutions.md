@@ -34,6 +34,7 @@
 | 344 | ReverseString | easy | [Java](src/easy/_344_ReverseString.java) |
 | 345 | ReverseVowelsOfAString | easy | [Java](src/easy/_345_ReverseVowelsOfAString.java) |
 | 349 | IntersectionOfTwoArrays | easy | [Java](src/easy/_349_IntersectionOfTwoArrays.java) |
+| 367 | ValidPerfectSquare | easy | [Java](src/easy/_367_ValidPerfectSquare.java) |
 | 383 | RansomNote | easy | [Java](src/easy/_383_RansomNote.java) |
 | 392 | IsSubsequence | easy | [Java](src/easy/_392_IsSubsequence.java) |
 | 412 | FizzBuzz | easy | [Java](src/easy/_412_FizzBuzz.java) |
