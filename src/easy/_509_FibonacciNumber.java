@@ -16,6 +16,7 @@ public class _509_FibonacciNumber {
             a = ans;
             ans = c;
         }
+
         return ans;
     }
 }
